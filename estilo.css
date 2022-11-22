@@ -1,0 +1,94 @@
+
+/*input de pesquisa*/
+.textfield{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 10px 10px;
+}
+
+.textfield > input{
+	width: 30%;
+	border-radius: 10px;
+	letter-spacing: 2px;
+	padding: 15px;
+	border: none;
+	background: #120a8f;
+	color: #f0ffffde;
+	font-size: 12pt;
+	box-shadow: 0px 10px 40px #00000056;
+	outline: none;
+	box-sizing: border-box;
+    cursor: pointer;
+}
+
+.textfield > label{
+	color: #120a8f;
+	margin-bottom: 10px;
+    
+}
+
+.textfield > input::placeholder{
+	color: #f0ffff94;
+}
+/*fim input*/
+
+.btn-login{ /*botão buscar personalizado*/
+	width: 5%;
+	padding: 15px 0px;
+	margin: 25px;
+	border: none;
+	border-radius: 8px;
+	outline: none;
+	text-transform: uppercase;
+	font-weight: 800;
+	color: #2b134b;
+	background: #FF8C00;
+	cursor: pointer;
+	box-shadow: 0px 10px 40px -12px #00ff8052;
+    margin-top: -48px;
+    margin-left: 365px;
+}
+/*estilização da div*/
+.tabela{
+    letter-spacing: 1.5px;
+    background-color: blue;
+    text-transform: uppercase;
+    border-collapse: collapse;
+    border-color: white;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+
+}
+/*estilização específica da th*/
+.tabela table th{
+    color: white;
+    font-family: Arial;
+    border-collapse: collapse;
+    border-color: white;
+    font-size: 16px;
+    padding: 10px;
+    
+}
+/*estilização específica da td*/
+.tabela table td{
+    color:white;
+    font-family: Arial;
+    border-collapse: collapse;
+    border-color: white;
+    padding: 10px;
+}
+/*estilização da table*/
+.tabela table{
+    border-radius: 3px;
+    box-sizing: border-box;
+    border-collapse: collapse;
+    border-color: white;
+    padding: 10px;
+}
+
+
+
